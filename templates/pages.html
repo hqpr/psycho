@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+
+{% block title %}{{ p.title|default:'Наши услуги' }}{% endblock %}
+{% block content %}
+    <h1>{{ p.name }}</h1>
+    {{ p.text|safe }}
+{% endblock %}
+
+{{ m }}

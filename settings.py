@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
 # Django settings for web project.
-import os, sys
+from os.path import join, abspath, normpath, dirname
 import os.path
+import os, sys
 
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
@@ -80,6 +81,17 @@ STATICFILES_DIRS = (
     # Always use forward slashes, even on Windows.
     # Don't forget to use absolute paths, not relative paths.
 )
+
+TEMPLATE_CONTEXT_PROCESSORS = (
+    'django.contrib.auth.context_processors.auth',
+    'django.contrib.messages.context_processors.messages',
+    'django.core.context_processors.debug',
+    'django.core.context_processors.i18n',
+    'django.core.context_processors.media',
+    'django.core.context_processors.static',
+    'django.core.context_processors.request',
+    )
+
 
 # List of finder classes that know how to find static files in
 # various locations.

@@ -14,7 +14,8 @@ admin.autodiscover()
 
 urlpatterns = patterns('',
     url(r'^$', views.index),
-    url(r'^page/(\d+)/$', views.pages),
+    url(r'^page/(.*)/$', views.pages),
+    url(r'^menu/$', views.menu),
 
 
     url(r'^admin/doc/', include('django.contrib.admindocs.urls')),

@@ -21,3 +21,4 @@ def menu(request):
     data = {'m': m}
     return render(request, 'inc/menu.html', data)
 # https://docs.djangoproject.com/en/dev/howto/custom-template-tags/
+# http://djbook.ru/rel1.4/howto/custom-template-tags.html
