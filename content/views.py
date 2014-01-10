@@ -12,13 +12,10 @@ def index(request):
 
 def pages(request, slug):
     p = Pages.objects.get(slug=slug)
-    data = {'p': p}
+    m = Navigation.objects.all()
+    data = {'p': p, 'm': m}
     return render(request, 'pages.html', data)
 
 
-def menu(request):
-    m = Navigation.objects.all()
-    data = {'m': m}
-    return render(request, 'inc/menu.html', data)
 # https://docs.djangoproject.com/en/dev/howto/custom-template-tags/
 # http://djbook.ru/rel1.4/howto/custom-template-tags.html

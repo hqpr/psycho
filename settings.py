@@ -26,7 +26,7 @@ DATABASES = {
 
 PROJECT_DIR = os.path.dirname(__file__)
 sys.path.append(os.path.join(PROJECT_DIR, 'apps'),)
-PUBLIC_DIR = os.path.join(PROJECT_DIR, '..', 'public')
+PUBLIC_DIR = os.path.join(PROJECT_DIR, 'public')
 
 # Local time zone for this installation. Choices can be found here:
 # http://en.wikipedia.org/wiki/List_of_tz_zones_by_name
