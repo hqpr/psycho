@@ -3,12 +3,38 @@
 {% block title %}{{ p.title|default:'Наши услуги' }}{% endblock %}
 {% block content %}
 
-{% for menu in m %}
-    <a href="/page/{{ menu.slug }}"> {{ menu.name }}</a><br>
-{% endfor %}
+<div id="top_menu">
+    <div class="container">
+    <ul>
+    {% for menu in m %}
+            <li><a href="/page/{{ menu.slug }}"> {{ menu.name }}</a></li>
+    {% endfor %}
+    </ul>
+    <span id="phone">+38 066 118 18 57</span>
 
-<h1>{{ p.name }}</h1>
-{{ p.text|safe }}
+    </div>
+</div>
+
+<div id="bottom_menu">
+    <div class="container"></div>
+</div>
+
+
+<div id="wrapper">
+		<a id="logo" href="/"><span></span></a>
+    {% include 'inc/question.html' %}
+    <div id="content">
+        <div id="sc-wrap">
+            <div class="scroll-pane">
+                <h1>{{ p.name }}</h1>
+                <div class="text_page">
+                    {{ p.text|safe }}
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
 
 {% endblock %}
 

@@ -4,6 +4,7 @@
 from .models import Pages, Navigation
 from django.shortcuts import render
 
+
 def index(request):
     p = Pages.objects.get(slug='index')
     data = {'p': p}
@@ -15,6 +16,7 @@ def pages(request, slug):
     m = Navigation.objects.all()
     data = {'p': p, 'm': m}
     return render(request, 'pages.html', data)
+
 
 
 # https://docs.djangoproject.com/en/dev/howto/custom-template-tags/

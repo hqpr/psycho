@@ -1,11 +1,35 @@
 {% extends 'base.html' %}
 
-{% block title %}{{ p.title }}{% endblock %}
+{% block title %}{{ p.title|default:'Наши услуги' }}{% endblock %}
 {% block content %}
-    {{ p.text|safe }}
-    <br>
-    <a href="/menu/">Menu</a>
-    русс
-{{ MEDIA_URL }}
+
+<div id="top_menu">
+    <div class="container">
+    <ul>
+    {% for menu in m %}
+            <li><a href="/page/{{ menu.slug }}"> {{ menu.name }}</a></li>
+    {% endfor %}
+    </ul>
+    </div>
+</div>
+<div id="bottom_menu">
+    <div class="container"></div>
+</div>
+
+
+<div id="wrapper">
+		<a id="logo" href="/"><span></span></a>
+    {% include 'inc/question.html' %}
+    <div id="content">
+        <div id="sc-wrap">
+            <div class="scroll-pane">
+                <h1>{{ p.name }}</h1>
+                <div class="text_page">
+                    {{ p.text|safe }}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 {% endblock %}
 
