@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 from django.db import models
+from django import forms
 
 
 class Pages(models.Model):
@@ -20,6 +21,7 @@ class Pages(models.Model):
 class Navigation(models.Model):
     name = models.CharField(max_length=100, verbose_name='Название пункта')
     slug = models.CharField(max_length=100, verbose_name='URL')
+    position = models.IntegerField(verbose_name=None, blank=True, null=True)
 
     class Meta:
         verbose_name = 'Навигация'
@@ -27,3 +29,10 @@ class Navigation(models.Model):
 
     def __unicode__(self):
         return self.name
+
+
+class ContactForm(forms.Form):
+    subject = forms.CharField(max_length=100)
+    message = forms.CharField()
+    sender = forms.EmailField()
+    cc_myself = forms.BooleanField(required=False)

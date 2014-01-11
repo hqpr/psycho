@@ -3,16 +3,31 @@
         <script src="{{ MEDIA_URL }}core/Smarty-plugins/js/getBrowserInfo.js" type=text/javascript></script>
         <script language="javascript">getBrowserInfo();</script>
         <script src="{{ MEDIA_URL }}js/formFieldsCheck.js" type=text/javascript></script>
-        <form action="/faq.html" method="POST" onsubmit="javascript: return formFieldsCheck('form');" name="form">
+
+<!--
+<form action="/contact/" method="post">{% csrf_token %}
+<p><label for="id_subject">Subject:</label>
+    <input id="id_subject" type="text" name="subject" maxlength="100" /></p>
+<p><label for="id_message">Message:</label>
+    <input type="text" name="message" id="id_message" /></p>
+<p><label for="id_sender">Sender:</label>
+    <input type="text" name="sender" id="id_sender" /></p>
+<p><label for="id_cc_myself">Cc myself:</label>
+    <input type="checkbox" name="cc_myself" id="id_cc_myself" /></p>
+<input type="submit" value="Submit" />
+</form>
+-->
+
+        <form action="/contact/" method="POST" onsubmit="javascript: return formFieldsCheck('form');" name="form"> {% csrf_token %}
             <div class="input">
-                <input type="text" mandatoryfield="1" name="name" onclick="if (this.value == 'Ваше имя') this.value = '';" onblur="if (this.value == '') this.value = 'Ваше имя';" value="Ваше имя" />
+                <input type="text" mandatoryfield="1" name="subject" id="id_subject" onclick="if (this.value == 'Ваше имя') this.value = '';" onblur="if (this.value == '') this.value = 'Ваше имя';" value="Ваше имя" />
             </div>
             <div class="input">
-                <input type="text" mandatoryfield="1" preg_mask="/^[\.\-_A-Za-z0-9]+?@[\.\-A-Za-z0-9]+?\.[A-Za-z0-9]{2,6}$/" name="email" onclick="if (this.value == 'Ваш e-mail') this.value = '';" onblur="if (this.value == '') this.value = 'Ваш e-mail';" value="Ваш e-mail" />
+                <input type="text" mandatoryfield="1" preg_mask="/^[\.\-_A-Za-z0-9]+?@[\.\-A-Za-z0-9]+?\.[A-Za-z0-9]{2,6}$/" name="sender" id="id_sender" onclick="if (this.value == 'Ваш e-mail') this.value = '';" onblur="if (this.value == '') this.value = 'Ваш e-mail';" value="Ваш e-mail" />
             </div>
 
             <div class="input">
-                <textarea name="question_ru" mandatoryfield="1" onclick="if (this.value == 'Напишите Ваш вопрос') this.value = '';" onblur="if (this.value == '') this.value = 'Напишите Ваш вопрос';" >Напишите Ваш вопрос</textarea>
+                <textarea name="message" id="id_message" mandatoryfield="1" onclick="if (this.value == 'Напишите Ваш вопрос') this.value = '';" onblur="if (this.value == '') this.value = 'Напишите Ваш вопрос';" >Напишите Ваш вопрос</textarea>
             </div>
             <div class="submit">
                 <input type="submit" value="" />
@@ -22,5 +37,4 @@
 
 <div>
 <br>
-</form>
 </div>

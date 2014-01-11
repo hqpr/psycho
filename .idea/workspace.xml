@@ -1,36 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="553cf552-aea0-45cd-96be-24a44bb01ee1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/inc/question.html" />
-      <change type="DELETED" beforePath="C:\Users\Alex\Dropbox\Public\psycho\psycho\public\media\bg.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/base.html" afterPath="$PROJECT_DIR$/templates/base.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/index.html" afterPath="$PROJECT_DIR$/templates/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/pages.html" afterPath="$PROJECT_DIR$/templates/pages.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/psycho.db" afterPath="$PROJECT_DIR$/psycho.db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/media/css/style.css" afterPath="$PROJECT_DIR$/public/media/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/views.py" afterPath="$PROJECT_DIR$/content/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="553cf552-aea0-45cd-96be-24a44bb01ee1" name="Default" comment="" />
     <ignored path="psycho.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/settings.py" changelist="553cf552-aea0-45cd-96be-24a44bb01ee1" time="1389283447081" ignored="false" />
-    <file path="/Dummy.txt" changelist="553cf552-aea0-45cd-96be-24a44bb01ee1" time="1389350282568" ignored="false" />
-    <file path="/views.py" changelist="553cf552-aea0-45cd-96be-24a44bb01ee1" time="1389360784244" ignored="false" />
-    <file path="/models.py" changelist="553cf552-aea0-45cd-96be-24a44bb01ee1" time="1389273229193" ignored="false" />
-    <file path="/urls.py" changelist="553cf552-aea0-45cd-96be-24a44bb01ee1" time="1389282144459" ignored="false" />
+    <file path="/settings.py" changelist="553cf552-aea0-45cd-96be-24a44bb01ee1" time="1389470311554" ignored="false" />
+    <file path="/Dummy.txt" changelist="553cf552-aea0-45cd-96be-24a44bb01ee1" time="1389467422962" ignored="false" />
+    <file path="/views.py" changelist="553cf552-aea0-45cd-96be-24a44bb01ee1" time="1389471096814" ignored="false" />
+    <file path="/models.py" changelist="553cf552-aea0-45cd-96be-24a44bb01ee1" time="1389469970238" ignored="false" />
+    <file path="/urls.py" changelist="553cf552-aea0-45cd-96be-24a44bb01ee1" time="1389468158260" ignored="false" />
     <file path="/index.html" changelist="553cf552-aea0-45cd-96be-24a44bb01ee1" time="1389283286429" ignored="false" />
     <file path="C:/Python27/Lib/site-packages/django/conf/__init__.py" changelist="553cf552-aea0-45cd-96be-24a44bb01ee1" time="1389271302789" ignored="false" />
     <file path="C:/Python27/Lib/site-packages/django/contrib/admin/sites.py" changelist="553cf552-aea0-45cd-96be-24a44bb01ee1" time="1389271408999" ignored="false" />
     <file path="/admin.py" changelist="553cf552-aea0-45cd-96be-24a44bb01ee1" time="1389273200601" ignored="false" />
     <file path="/Python Console" changelist="553cf552-aea0-45cd-96be-24a44bb01ee1" time="1389348989717" ignored="false" />
-    <file path="/base.html" changelist="553cf552-aea0-45cd-96be-24a44bb01ee1" time="1389273329192" ignored="false" />
+    <file path="/base.html" changelist="553cf552-aea0-45cd-96be-24a44bb01ee1" time="1389471202554" ignored="false" />
     <file path="/menu.html" changelist="553cf552-aea0-45cd-96be-24a44bb01ee1" time="1389282307712" ignored="false" />
     <file path="/pages.html" changelist="553cf552-aea0-45cd-96be-24a44bb01ee1" time="1389361366364" ignored="false" />
     <file path="/style.css" changelist="553cf552-aea0-45cd-96be-24a44bb01ee1" time="1389361478067" ignored="false" />
     <file path="$USER_HOME$/drive/NEW/Drive/MAIN/WORK/cmg/canvasplaza/price_changer.py" changelist="553cf552-aea0-45cd-96be-24a44bb01ee1" time="1389346530444" ignored="false" />
     <file path="/price_changer.py" changelist="553cf552-aea0-45cd-96be-24a44bb01ee1" time="1389346527919" ignored="false" />
-    <file path="/question.html" changelist="553cf552-aea0-45cd-96be-24a44bb01ee1" time="1389360363477" ignored="false" />
+    <file path="/question.html" changelist="553cf552-aea0-45cd-96be-24a44bb01ee1" time="1389468839610" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,10 +43,8 @@
       <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="19" selection-start="1385" selection-end="1385" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#59#111#0" expanded="true" />
-              </folding>
+            <state line="6" column="12" selection-start="151" selection-end="155" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -73,8 +61,10 @@
       <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/content/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="16" selection-start="667" selection-end="677" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="23" column="12" selection-start="862" selection-end="870" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#24#52#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -82,34 +72,36 @@
       <file leaf-file-name="base.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="39" selection-start="865" selection-end="865" vertical-scroll-proportion="-11.533334">
+            <state line="30" column="0" selection-start="1198" selection-end="1198" vertical-scroll-proportion="-2.7419355">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/media/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="149" column="33" selection-start="2720" selection-end="2731" vertical-scroll-proportion="0.7302405">
+            <state line="156" column="27" selection-start="2875" selection-end="2875" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="question.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="0" selection-start="350" selection-end="350" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#0#51#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="question.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/inc/question.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="6" selection-start="1457" selection-end="1457" vertical-scroll-proportion="-14.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="analyst.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://Z:/home/psy/www/css/analyst.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="311" column="0" selection-start="5359" selection-end="5479" vertical-scroll-proportion="0.0">
+            <state line="25" column="185" selection-start="1534" selection-end="1534" vertical-scroll-proportion="0.36197442">
               <folding />
             </state>
           </provider>
@@ -118,7 +110,18 @@
       <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/content/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="0" selection-start="423" selection-end="423" vertical-scroll-proportion="0.0">
+            <state line="17" column="45" selection-start="504" selection-end="504" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#45#95#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contact.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/contact.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="7" selection-start="118" selection-end="118" vertical-scroll-proportion="-2.1290324">
               <folding />
             </state>
           </provider>
@@ -127,16 +130,7 @@
       <file leaf-file-name="pages.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/pages.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="37" selection-start="682" selection-end="691" vertical-scroll-proportion="-10.133333">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="0" selection-start="380" selection-end="380" vertical-scroll-proportion="-12.6">
+            <state line="29" column="37" selection-start="682" selection-end="691" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -161,25 +155,26 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/content/admin.py" />
-        <option value="$PROJECT_DIR$/content/models.py" />
         <option value="$PROJECT_DIR$/psycho.db" />
         <option value="$PROJECT_DIR$/templates/inc/menu.html" />
-        <option value="$PROJECT_DIR$/urls.py" />
-        <option value="$PROJECT_DIR$/settings.py" />
-        <option value="$PROJECT_DIR$/templates/base.html" />
-        <option value="$PROJECT_DIR$/templates/inc/question.html" />
         <option value="$PROJECT_DIR$/templates/index.html" />
-        <option value="$PROJECT_DIR$/content/views.py" />
         <option value="$PROJECT_DIR$/templates/pages.html" />
         <option value="$PROJECT_DIR$/public/media/css/style.css" />
+        <option value="$PROJECT_DIR$/templates/contact.html" />
+        <option value="$PROJECT_DIR$/urls.py" />
+        <option value="$PROJECT_DIR$/templates/inc/question.html" />
+        <option value="$PROJECT_DIR$/content/models.py" />
+        <option value="$PROJECT_DIR$/settings.py" />
+        <option value="$PROJECT_DIR$/content/views.py" />
+        <option value="$PROJECT_DIR$/templates/base.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1916" />
-    <option name="y" value="-4" />
-    <option name="width" value="1928" />
-    <option name="height" value="1088" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1064" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -207,7 +202,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -271,32 +265,6 @@
               <option name="myItemId" value="public" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="media" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="psycho" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="psycho" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="media" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -314,19 +282,21 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="options.lastSelected" value="com.jetbrains.python.configuration.PythonSdkConfigurable" />
     <property name="recentsLimit" value="5" />
-    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="restartRequiresConfirmation" value="true" />
     <property name="last_opened_file_path" value="D:/ultrab" />
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -337,29 +307,6 @@
     </option>
   </component>
   <component name="RunManager" selected="Django server.psycho">
-    <configuration default="true" type="tests" factoryName="Unittests">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="psycho" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PUREUNITTEST" value="true" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
     <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -381,6 +328,29 @@
       <option name="runNoReload" value="false" />
       <option name="useCustomRunCommand" value="false" />
       <option name="customRunCommand" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="psycho" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
@@ -418,7 +388,7 @@
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="psycho" />
@@ -466,18 +436,18 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1916" y="-4" width="1928" height="1088" extended-state="6" />
+    <frame x="-9" y="-9" width="1938" height="1064" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32908705" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26040554" sideWeight="0.67197454" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26307365" sideWeight="0.6726058" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3280255" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32739422" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -568,7 +538,9 @@
     <entry file="file://$PROJECT_DIR$/content/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="38" selection-start="541" selection-end="541" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="e#45#95#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -580,11 +552,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/psycho.db">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
       <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
         <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/content/admin.py">
@@ -594,76 +566,78 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/content/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="16" selection-start="667" selection-end="677" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="39" selection-start="662" selection-end="662" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#51#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="19" selection-start="1385" selection-end="1385" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#59#111#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="380" selection-end="380" vertical-scroll-proportion="-12.6">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="39" selection-start="865" selection-end="865" vertical-scroll-proportion="-11.533334">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="423" selection-end="423" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/inc/question.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="6" selection-start="1457" selection-end="1457" vertical-scroll-proportion="-14.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://Z:/home/psy/www/css/analyst.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="311" column="0" selection-start="5359" selection-end="5479" vertical-scroll-proportion="0.0">
+        <state line="18" column="0" selection-start="380" selection-end="380" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/pages.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="37" selection-start="682" selection-end="691" vertical-scroll-proportion="-10.133333">
+        <state line="29" column="37" selection-start="682" selection-end="691" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/media/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="149" column="33" selection-start="2720" selection-end="2731" vertical-scroll-proportion="0.7302405">
+        <state line="156" column="27" selection-start="2875" selection-end="2875" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="7" selection-start="118" selection-end="118" vertical-scroll-proportion="-2.1290324">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="350" selection-end="350" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="12" selection-start="862" selection-end="870" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#24#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="12" selection-start="151" selection-end="155" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="45" selection-start="504" selection-end="504" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#45#95#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="0" selection-start="1198" selection-end="1198" vertical-scroll-proportion="-2.7419355">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/inc/question.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="185" selection-start="1534" selection-end="1534" vertical-scroll-proportion="0.36197442">
           <folding />
         </state>
       </provider>
